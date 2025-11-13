@@ -2,7 +2,7 @@
 
 Solution personnelle à l’exercice dans le cadre du processus de recrutement Orange
 
-# Advent of Code 2024 – Day 2  
+
 ## Analyse de rapports – Implémentation en Java
 
 Ce projet propose une implémentation complète du puzzle **Advent of Code 2024 – Jour 2**, consistant à analyser une liste de rapports numériques afin de déterminer lesquels sont *safe* selon des règles précises.
