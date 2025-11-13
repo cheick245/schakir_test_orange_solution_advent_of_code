@@ -58,10 +58,10 @@ Nombre de rapports safe  : 328
 
  Tests unitaires
 Pour exécuter les tests :
-
-
 mvn test
+
 Les tests couvrent les exemples officiels de l’énoncé afin de garantir la conformité de la méthode isSafe().
+
 
 ✔ Implémentation
 La classe ReportAnalyzer contient :
