@@ -99,5 +99,20 @@ private List<Integer> parseLine(String line) {
             .collect(Collectors.toList());
 }
 
+/**
+ * Retourne le nombre total de rapports présents dans le fichier.
+ * (Chaque ligne non vide est considérée comme un rapport.)
+ */
+public int countTotalReports(String filePath) {
+    try {
+        return (int) Files.lines(Path.of(filePath))
+                .filter(line -> !line.trim().isEmpty())
+                .count();
+    } catch (IOException e) {
+        System.err.println("Impossible de lire le fichier : " + filePath);
+        System.err.println("Détail : " + e.getMessage());
+        return 0;
+    }
+}
 
 }
