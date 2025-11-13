@@ -9,7 +9,7 @@ Ce projet propose une implémentation complète du puzzle **Advent of Code 2024 
 
 
 
-## 📌 Règles d’un rapport *safe*
+##  Règles d’un rapport *safe*
 
 Un rapport (suite de nombres séparés par espaces) est considéré comme **safe** si :
 
@@ -27,7 +27,7 @@ Exemples provenant de l’énoncé :
 
 ---
 
-## 🛠️ Structure du projet
+##  Structure du projet
 
 .
 ├── input.txt # Données à analyser
@@ -43,7 +43,7 @@ Exemples provenant de l’énoncé :
 
 ---
 
-## ▶️ Exécution du programme
+##  Exécution du programme
 
 Placer le fichier `input.txt` à la racine du projet puis exécuter :
 
