@@ -28,16 +28,17 @@ Exemples provenant de l’énoncé :
 ---
 
 ##  Structure du projet
-.
-├── input.txt
-├── pom.xml
-├── README.md
-└── src/
-     ├── main/java/
-     │      ├── Main.java
-     │      └── ReportAnalyzer.java
-     └── test/java/
-            └── ReportAnalyzerTest.java
+
+
+| Chemin                    | Description                                   |
+|---------------------------|-----------------------------------------------|
+| `input.txt`               | Données à analyser                            |
+| `pom.xml`                 | Configuration Maven                           |
+| `README.md`               | Documentation du projet                       |
+| `src/main/java/Main.java` | Point d'entrée du programme                   |
+| `src/main/java/ReportAnalyzer.java` | Logique métier (analyse des rapports) |
+| `src/test/java/ReportAnalyzerTest.java` | Tests unitaires JUnit             |
+
 
 
 ##  Exécution du programme
