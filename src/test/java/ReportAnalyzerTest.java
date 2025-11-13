@@ -7,9 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * 
  * Ces tests vérifient que la méthode isSafe() fonctionne correctement
  * sur les exemples officiels donnés dans l'énoncé du problème Advent of Code.
- * 
- * Rédiger les tests AVANT d'écrire l'implémentation permet d'adopter
- * une démarche TDD (Test Driven Development) simple.
+
  */
 public class ReportAnalyzerTest {
 

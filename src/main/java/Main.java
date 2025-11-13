@@ -13,7 +13,7 @@ public class Main {
 
         ReportAnalyzer analyzer = new ReportAnalyzer();
 
-        System.out.println("=== Advent of Code 2024 - Day 2 ===");
+        System.out.println("Resultat");
         System.out.println("Analyse en cours du fichier : " + filePath);
 
         // J'encapsule l'appel dans un try/catch pour éviter que l'application ne plante.

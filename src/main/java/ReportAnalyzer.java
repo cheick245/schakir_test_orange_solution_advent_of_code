@@ -65,10 +65,6 @@ public boolean isSafe(List<Integer> levels) {
 /**
  * Analyse un fichier contenant plusieurs rapports (un par ligne)
  * et retourne le nombre total de rapports "safe".
- *
- * La méthode gère les erreurs de lecture de manière propre :
- *  - si le fichier est introuvable, on affiche un message clair
- *  - on ne fait pas planter l'application
  */
 public int countSafeReports(String filePath) {
     try {
