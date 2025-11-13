@@ -28,20 +28,17 @@ Exemples provenant de l’énoncé :
 ---
 
 ##  Structure du projet
-
 .
-├── input.txt # Données à analyser
-├── pom.xml # Configuration Maven
+├── input.txt
+├── pom.xml
 ├── README.md
 └── src/
-├── main/java/
-│ ├── Main.java # Point d'entrée
-│ └── ReportAnalyzer.java # Logique de vérification + analyse fichier
-└── test/java/
-└── ReportAnalyzerTest.java # Tests unitaires JUnit
+     ├── main/java/
+     │      ├── Main.java
+     │      └── ReportAnalyzer.java
+     └── test/java/
+            └── ReportAnalyzerTest.java
 
-
----
 
 ##  Exécution du programme
 
@@ -83,4 +80,4 @@ countTotalReports(String) : Compte le nombre total de rapports valides dans un f
 Développé par Kagoné Cheick Schakir
 Dans le cadre d’un exercice d’évaluation technique.
 
-yaml
+
